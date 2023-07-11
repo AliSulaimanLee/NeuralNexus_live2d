@@ -1,0 +1,67 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 0.82,
+		"Fps": 60.0,
+		"Loop": true,
+		"AreBeziersRestricted": false,
+		"CurveCount": 3,
+		"TotalSegmentCount": 5,
+		"TotalPointCount": 14,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Parameter",
+			"Id": "ParamDefOpacity",
+			"Segments": [
+				0,
+				-1,
+				1,
+				0.072,
+				-1,
+				0.144,
+				1,
+				0.217,
+				1,
+				1,
+				0.367,
+				1,
+				0.517,
+				1,
+				0.667,
+				1,
+				1,
+				0.717,
+				1,
+				0.767,
+				-1,
+				0.817,
+				-1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "DEFup",
+			"Segments": [
+				0,
+				1,
+				0,
+				0.82,
+				1
+			]
+		},
+		{
+			"Target": "PartOpacity",
+			"Id": "HPup",
+			"Segments": [
+				0,
+				0,
+				0,
+				0.82,
+				0
+			]
+		}
+	]
+}

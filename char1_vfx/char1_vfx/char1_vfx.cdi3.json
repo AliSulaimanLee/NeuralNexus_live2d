@@ -1,0 +1,141 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamFlareSize",
+			"GroupId": "ParamGroup",
+			"Name": "Flare Size"
+		},
+		{
+			"Id": "ParamLaserLength",
+			"GroupId": "ParamGroup",
+			"Name": "LaserLength"
+		},
+		{
+			"Id": "ParamLaserWidthx",
+			"GroupId": "ParamGroup",
+			"Name": "LaserWidth"
+		},
+		{
+			"Id": "ParamCircleSize",
+			"GroupId": "ParamGroup",
+			"Name": "Circle Size"
+		},
+		{
+			"Id": "ParamSolarSize",
+			"GroupId": "ParamGroup",
+			"Name": "Solar Size"
+		},
+		{
+			"Id": "ParamSolarRotation",
+			"GroupId": "ParamGroup",
+			"Name": "Solar Rotation"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "ParamGroup2",
+			"Name": "Heal Opacity"
+		},
+		{
+			"Id": "ParamHealSize",
+			"GroupId": "ParamGroup2",
+			"Name": "Heal Size"
+		},
+		{
+			"Id": "ParamMagicCircleX",
+			"GroupId": "ParamGroup3",
+			"Name": "Magic Circle X"
+		},
+		{
+			"Id": "ParamMagicCircleRotation",
+			"GroupId": "ParamGroup3",
+			"Name": "Magic Circle Rotation"
+		},
+		{
+			"Id": "ParamBatikCircleRotation",
+			"GroupId": "ParamGroup3",
+			"Name": "Batik Circle Rotation"
+		},
+		{
+			"Id": "ParamBatikCircleSize",
+			"GroupId": "ParamGroup3",
+			"Name": "Size Batik Circle"
+		},
+		{
+			"Id": "ParamCubeCircleSize",
+			"GroupId": "ParamGroup3",
+			"Name": "Size Cube Circle"
+		},
+		{
+			"Id": "ParamInnerCircleSize",
+			"GroupId": "ParamGroup3",
+			"Name": "Size Inner Circle"
+		},
+		{
+			"Id": "CubeCircleRotation",
+			"GroupId": "ParamGroup3",
+			"Name": "Cube Circle"
+		},
+		{
+			"Id": "ParamMagicCircleLaserLength",
+			"GroupId": "ParamGroup3",
+			"Name": "Ult Laser Length"
+		},
+		{
+			"Id": "ParamLaserWidth",
+			"GroupId": "ParamGroup3",
+			"Name": "Ult Laser Width"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "Attack"
+		},
+		{
+			"Id": "ParamGroup2",
+			"GroupId": "",
+			"Name": "Heal"
+		},
+		{
+			"Id": "ParamGroup3",
+			"GroupId": "",
+			"Name": "Ultimate"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "Part6",
+			"Name": "char1-magic_circle.psd"
+		},
+		{
+			"Id": "Part4",
+			"Name": "heal"
+		},
+		{
+			"Id": "solar",
+			"Name": "solar"
+		},
+		{
+			"Id": "Part5",
+			"Name": "magic circle Copy"
+		},
+		{
+			"Id": "Part",
+			"Name": "laser"
+		},
+		{
+			"Id": "Part2",
+			"Name": "flare"
+		},
+		{
+			"Id": "Part3",
+			"Name": "circle"
+		},
+		{
+			"Id": "Part7",
+			"Name": "laserUlt"
+		}
+	]
+}
