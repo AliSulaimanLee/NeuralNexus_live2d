@@ -1,22 +1,82 @@
-{
+[17:10, 11/07/2023] Damar A. PTI: {
 	"Version": 3,
 	"FileReferences": {
 		"Moc": "char1_v2.moc3",
 		"Textures": [
 			"char1_v2.2048/texture_00.png"
 		],
-		"Physics": "char1_v2.physics3.json",
-		"DisplayInfo": "char1_v2.cdi3.json"
+		"Motions": {
+			"Idle": [
+			  {
+				"Name": "Idle",
+				"File": "motions/pose_Idle.motion3.json",
+				"Weight": 1
+			  }
+			],
+			"Attack": [
+				{
+				  "Name": "Attack",
+				  "File": "motions/start_Attack.motion3.json",
+				  "Weight": 1
+				}
+			  
+			  ],
+			"Defense": [
+				{
+				  "Name": "Defense",
+				  "File": "motions/pose_Defense.motion3.json",
+				  "Weight": 1
+				},
+				{
+				  "Name": "Start Defense",
+				  "File": "motions/start_Defense.motion3.json",
+				  "Weight": 1
+				}
+			  ],
+			"Heal": [
+				{
+				  "Name": "Heal",
+				  "File": "motions/start_Heal.motion3.json",
+				  "Weight": 1
+				}
+			  ],
+			"Hurt": [
+				{
+…
+[17:10, 11/07/2023] Damar A. PTI: {
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "VFX_Stats.moc3",
+		"Textures": [
+			"VFX_Stats.1024/texture_00.png"
+		],
+		"DisplayInfo": "VFX_Stats.cdi3.json",
+		"Motions": {
+			"DEF1": [
+				{
+					"Name": "DEF1",
+					"File": "motions/DEF_Up.motion3.json",
+					"Weight": 1
+				}
+			],
+			"HP": [
+				{
+					"Name": "HP",
+					"File": "motions/HP_Up.motion3.json",
+					"Weight": 1
+				}
+			]
+		}
 	},
 	"Groups": [
 		{
 			"Target": "Parameter",
-			"Name": "LipSync",
+			"Name": "EyeBlink",
 			"Ids": []
 		},
 		{
 			"Target": "Parameter",
-			"Name": "EyeBlink",
+			"Name": "LipSync",
 			"Ids": []
 		}
 	]
