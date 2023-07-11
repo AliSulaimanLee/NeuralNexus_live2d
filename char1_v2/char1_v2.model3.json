@@ -42,5 +42,24 @@
 			  ],
 			"Hurt": [
 				{
-{
-	
+				  "Name": "Hurt",
+				  "File": "motions/start_Hurt.motion3.json",
+				  "Weight": 1
+				}
+			  ]
+			  
+		  }
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
