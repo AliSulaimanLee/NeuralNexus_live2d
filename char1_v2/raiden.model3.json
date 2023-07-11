@@ -1,0 +1,70 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "char1_v2.moc3",
+		"Textures": [
+			"char1_v2.2048/texture_00.png"
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"Name": "Idle",
+					"File": "motions/pose_Idle.motion3.json",
+					"Weight": 1
+				}
+			],
+			"Attack": [
+				{
+					"Name": "Attack",
+					"File": "motions/start_Attack.motion3.json",
+					"Weight": 1
+				}
+			],
+			"Defense": [
+				{
+					"Name": "Defense",
+					"File": "motions/pose_Defense.motion3.json",
+					"Weight": 1
+				},
+				{
+					"Name": "Start Defense",
+					"File": "motions/start_Defense.motion3.json",
+					"Weight": 1
+				}
+			],
+			"Heal": [
+				{
+					"Name": "Heal",
+					"File": "motions/start_Heal.motion3.json",
+					"Weight": 1
+				}
+			],
+			"Hurt": [
+				{
+					"Name": "Hurt",
+					"File": "motions/start_Hurt.motion3.json",
+					"Weight": 1
+				}
+			],
+			"Ultimate": [
+				{
+					"Name": "Ultimate",
+					"File": "motions/start_Ultimate.motion3.json",
+					"Weight": 1
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
