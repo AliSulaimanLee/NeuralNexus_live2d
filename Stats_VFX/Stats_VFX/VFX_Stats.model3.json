@@ -5,7 +5,23 @@
 		"Textures": [
 			"VFX_Stats.1024/texture_00.png"
 		],
-		"DisplayInfo": "VFX_Stats.cdi3.json"
+		"DisplayInfo": "VFX_Stats.cdi3.json",
+		"Motions": {
+			"DEF1": [
+				{
+					"Name": "DEF1",
+					"File": "motions/DEF_Up.motion3.json",
+					"Weight": 1
+				}
+			],
+			"HP": [
+				{
+					"Name": "HP",
+					"File": "motions/HP_Up.motion3.json",
+					"Weight": 1
+				}
+			]
+		}
 	},
 	"Groups": [
 		{
